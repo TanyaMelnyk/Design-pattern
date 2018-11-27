@@ -1,4 +1,4 @@
-const TAKS = 20;
+const TAX = 20;
 
 class Basket {
   constructor () {
@@ -34,7 +34,7 @@ class Product {
     this.price = productPrice;  
   }
   totalPrice() {
-    return this.price + this.price*TAKS/100;
+    return this.price + this.price*TAX/100;
   }
   
 }
